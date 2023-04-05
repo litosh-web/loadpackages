@@ -43,7 +43,7 @@ class Packages
         $res = $this->modx->fromJSON($res);
 
         if ($res['total']) {
-            return true;
+            return $res['results'][0];
         }
     }
 
@@ -61,7 +61,7 @@ class Packages
         $res = $response->getObject();
 
         if ($res->success) {
-            return $res['signature'];
+            return true;
         }
     }
 
