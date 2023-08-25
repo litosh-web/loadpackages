@@ -1,13 +1,12 @@
 <?php
+//provider
 $provider = 1;
+
 $items = [
     'login',
-//    'fred',
 //    'ace',
 //    'ajaxform',
 //    'FormIt',
-//    'Fred Ace Integration',
-//    'Fred TinyMCE RTE',
 //    'migx',
 ];
 
