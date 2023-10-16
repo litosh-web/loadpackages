@@ -3,17 +3,22 @@
 $provider = 1;
 
 $items = [
-    'login',
-//    'ace',
-//    'ajaxform',
-//    'FormIt',
+//    'login',
+    'ace',
+    'console',
+    'tinymce rich text editor',
+    'pdotools',
+    'formit',
+    'ajaxform',
+    'translit',
+    'clientconfig',
 //    'migx',
 ];
 
 // Подключаем
 define('MODX_API_MODE', true);
-require_once dirname(__DIR__) . '/index.php';
-require_once dirname(__DIR__) . '/packages/packages.class.php';
+require_once dirname(dirname(__DIR__)) . '/index.php';
+require_once dirname(__DIR__) . '/loadpackages/packages.class.php';
 
 $modx = new modX();
 $modx->initialize('web');
