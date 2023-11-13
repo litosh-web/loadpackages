@@ -1,4 +1,5 @@
-# LoadPackages
+## LoadPackages
+### MODx Revolution 2.x extra
 
 The script for install a multiple packages for MODx Revolution
 
